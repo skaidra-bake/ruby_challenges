@@ -15,4 +15,7 @@ def solution(str)
     end
 end
 
-#puts("abcd") = ['ab', 'cd']
+# another genius solution!
+# def solution str
+#     (str + '_').scan /../
+#   end
