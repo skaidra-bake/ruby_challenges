@@ -10,7 +10,7 @@ RSpec.describe 'Splitter' do
     end
 
     it 'converts a string of one character' do
-        expect()
+        expect(solution("a")).to eq ["a_"]
     end
     it 'does not split an empty string' do
         expect(solution('')).to eq []
