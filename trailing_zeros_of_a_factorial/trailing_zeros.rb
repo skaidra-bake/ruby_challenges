@@ -1,3 +1,4 @@
+#find the trailing zeros in a n! when given n 
 def zeros(n)
     quotient = n/5
     trailing_zeros = quotient
